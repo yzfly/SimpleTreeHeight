@@ -15,4 +15,7 @@ If you have python-pcl install problems, you can try the ".whl" file in the flod
 ## Description
 
 A simple algorithm for extracting tree height in sparse scene from point cloud data.
-![procedure](https://raw.githubusercontent.com/yzfly/SimpleTreeHeight/master/images/procedure.png)
+
+<div align=center>
+<img width="230" height="315" src="https://raw.githubusercontent.com/yzfly/SimpleTreeHeight/master/images/procedure.png"/>
+</div>
