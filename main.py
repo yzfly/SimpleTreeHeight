@@ -79,11 +79,9 @@ def tree_height(tree, p):
 
 
 if __name__ =='__main__':
-	h_tree_gt = [15.4, 3.6, 17.2, 17.2, 17.1, 4.0, 4.1, 5.9, 17.5]
+    h_tree_gt = [15.4, 3.6, 17.2, 17.2, 17.1, 4.0, 4.1, 5.9, 17.5]
     p_min, p64 = read_p(p_path='pcd/pointcloud.csv')
-	
     p32 = voxel(p=p64, d=1)   # voxel grid filter
-	
     r, d = d_r(p32)
     t_pl = find_trees(p32, r=r, tree_points=18)
 	
@@ -110,7 +108,6 @@ if __name__ =='__main__':
     r2 = r2_score(h_tree_gt, h_trees) 
     mae = mean_absolute_error(h_tree_gt, h_trees)
     print("mse: {}, rmse: {}, mae: {}, r2: {}, ".format(mse, rmse, mae, r2))
-
 
 """
 trees height:[15.909102935791015, 3.1540063476562503, 18.26805191040039, 16.948209381103517, 17.655261840820312, 4.076800079345703, 3.920495758056641, 6.537965545654297, 17.11969161987305, 1.4795011901855473]
