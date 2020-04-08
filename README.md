@@ -25,9 +25,11 @@ conda install -c plotly plotly-orca==1.2.1 psutil requests
 pip install numpy scipy matplotlib
 ```
 
-* ImportError: DLL load failed
+#### ImportError: DLL load failed
 
-If you meet "ImportError: DLL load failed" problem when you try to "import pcl", that was because "OpenNI2.dll" missing. To fix this, I provide your with "python-pcl/OpenNI2.dll", just copy "OpenNI2.dll" into folder "YOUR_Anconda3_Floder\envs\py37\lib\site-packages\pcl".
+If you meet "ImportError: DLL load failed" problem when you try to "import pcl", that was because "OpenNI2.dll" missing. 
+
+> To fix this, I provide your with "python-pcl/OpenNI2.dll", just copy "OpenNI2.dll" into folder "YOUR_ANACONDA3_FLODER\envs\py37\lib\site-packages\pcl".
 
 ## Run
 
