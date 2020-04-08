@@ -19,6 +19,7 @@ Make sure anaconda has been installed on your windows computer, use the followin
 
 ```bash
 conda create -n py37 python=3.7
+conda activate py37
 pip install python_pcl-0.3.0rc1-cp37-cp37m-win_amd64.whl
 conda install -c plotly plotly-orca==1.2.1 psutil requests
 pip install numpy scipy matplotlib
