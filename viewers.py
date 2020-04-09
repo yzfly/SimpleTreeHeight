@@ -54,7 +54,7 @@ def plot_clustering(trees,is_show=True):
         fig.show()
     return fig
 
-def plot_3d(tree,is_show=True):
+def plot_3d(tree, is_show=True):
 
     import plotly.express as px
     import pandas as pd
